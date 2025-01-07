@@ -1,0 +1,46 @@
+/* PlanList.css */
+.plan-list-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan-list-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.plan-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan-list li {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan-list li:hover {
+    background-color: #f1f1f1;
+}
+
+.plan-destination {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.plan-dates {
+    font-size: 0.9rem;
+    color: #555;
+}

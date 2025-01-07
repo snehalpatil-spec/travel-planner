@@ -1,0 +1,63 @@
+/* src/components/CreatePlan.css */
+
+.create-plan-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.create-plan-container h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.create-plan-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.create-plan-container label {
+    font-size: 1rem;
+    color: #343a40;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.create-plan-container input,
+.create-plan-container textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.create-plan-container input:focus,
+.create-plan-container textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.create-plan-container button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-plan-container button:hover {
+    background-color: #0056b3;
+}
